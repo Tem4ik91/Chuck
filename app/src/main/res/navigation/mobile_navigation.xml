@@ -8,18 +8,13 @@
     <fragment
         android:id="@+id/navigation_jokes"
         android:name="com.example.chuck.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="Jokes"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_web"
         android:name="com.example.chuck.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="Api info"
         tools:layout="@layout/fragment_dashboard" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.chuck.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
 </navigation>
