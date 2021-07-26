@@ -23,13 +23,6 @@ class JokesFragment : Fragment() {
     }
 
 
-   /* override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-
-    }*/
 
     override fun onDestroyView() {
         super.onDestroyView()

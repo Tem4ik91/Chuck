@@ -7,55 +7,44 @@
     tools:context=".ui.Joke.JokesFragment"
     >
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/list_block"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@+id/button_block"
+        android:orientation="vertical"
+        android:weightSum="100"
         app:layout_constraintTop_toTopOf="parent">
 
         <ListView
             android:id="@+id/list_jokes"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.038" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/button_block"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        >
+            android:layout_height="0dp"
+            android:layout_weight="95" />
 
         <EditText
             android:id="@+id/editText_jokes"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:hint="Count"
+            android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginVertical="5dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/button_block" />
+            android:hint="Count"
+            android:inputType="number" />
 
         <Button
             android:id="@+id/btn_jokes"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RELOAD"
+            android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginVertical="5dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText_jokes" />
+            android:text="RELOAD" />
+
+    </LinearLayout>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
 
 
 
