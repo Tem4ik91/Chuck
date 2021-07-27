@@ -2,4 +2,8 @@
     <string name="app_name">Chuck</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
+    <string name="tx_ed_hint">Count</string>
+    <string name="tx_Btn">RELOAD</string>
+    <string name="tx_item_jokes">Jokes</string>
+    <string name="tx_item_web">Web</string>
 </resources>
